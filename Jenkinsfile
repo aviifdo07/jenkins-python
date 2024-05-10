@@ -15,7 +15,7 @@ pipeline {
             steps {
                 script {
                     // Run main.py after the build
-                    sh 'python main.py'
+                    sh 'python3 main.py'
                 }
             }
         }
