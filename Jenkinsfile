@@ -20,7 +20,7 @@ pipeline {
 
                     // Run integration tests (if applicable) using a suitable tool
                     // Replace 'python integration_tests.py' with the command for your integration tests
-                    sh 'python integration_tests.py'
+                    sh 'py integration_tests.py'
                 }
             }
         }
